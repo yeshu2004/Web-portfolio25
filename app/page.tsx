@@ -1,6 +1,6 @@
 'use client'
 
-import Agenda from "@/components/Agenda";
+// import Agenda from "@/components/Agenda";
 import HeroPage from "@/components/HeroPage";
 import Scroll from "@/components/Scroll";
 import Lenis from 'lenis'
