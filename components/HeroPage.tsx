@@ -12,7 +12,7 @@ export default function HeroPage() {
       </div>
       {/* herotext */}
       <div>
-        <h1 className="md:text-[12vw] uppercase font-semibold lg:px-10 mt-14 lg:text-center text-[4.2rem] px-5 leading-none pb-2 lg:pb-0">web portfolio</h1>
+        <h1 className="md:text-[12vw] uppercase font-semibold lg:px-10 mt-14 lg:text-center text-[3.5rem] px-5 leading-none pb-2 lg:pb-0">web portfolio</h1>
       </div>
       {/* heroimg */}
       <div className="lg:px-14 px-5">
