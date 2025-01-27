@@ -1,6 +1,6 @@
 const Scroll = () => {
   return (
-    <div className="bg-yellow-200 h-screen w-full">
+    <div className="bg-zinc-900 h-screen w-full">
 
     </div>
   )
