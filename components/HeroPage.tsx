@@ -33,12 +33,12 @@ export default function HeroPage() {
       </div>
       {/* herotext */}
       <div>
-        <div className="md:text-[12vw] uppercase font-semibold lg:px-10 mt-8 text-[3.7rem] px-5 leading-none pb-2 lg:pb-0 md:flex md:items-center md:gap-5 md:justify-center">
+        <div className="md:text-[12vw] uppercase font-semibold lg:px-10 mt-8 text-[3.8rem] px-5 leading-none pb-2 lg:pb-0 md:flex md:items-center md:gap-5 md:justify-center">
           <div className="flex items-center gap-5 lg:gap-0">
             <div className="min-w-fit h-fit overflow-hidden">
               <motion.h1 initial={{y: "200%"}} animate={{y: "0%"}} transition={{duration: 1, ease: "easeInOut"}} className="w-full">web</motion.h1>
             </div>
-            <motion.div initial={{width: 0}} animate={{width: "100%"}} transition={{duration: 2, ease: "easeInOut"}} className="h-1 w-full bg-white md:hidden"></motion.div>
+            <motion.div initial={{width: 0}} animate={{width: "100%"}} transition={{duration: 2, ease: "easeInOut", delay: 1.5}} className="h-1 w-full bg-white md:hidden"></motion.div>
           </div>
           <div className="min-w-fit h-fit overflow-hidden">
             <motion.h1 initial={{y: "200%"}} animate={{y: "0%"}} transition={{duration: 1, delay:0.5, ease: "easeInOut"}}>portfolio</motion.h1>
