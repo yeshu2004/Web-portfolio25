@@ -2,9 +2,16 @@ import Link from "next/link";
 import { IoIosMenu } from "react-icons/io";
 import HomeImg from "@/images/homeImg.jpg";
 import { motion, useScroll, useTransform } from "motion/react";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 export default function HeroPage() {
+
+  useEffect(() => {
+    // Preload the image
+    const img = new Image();
+    img.src = HomeImg.src;
+  }, []);
+
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -47,7 +54,7 @@ export default function HeroPage() {
       </div>
       {/* heroimg */}
       <div className="lg:px-14 px-5 z-2">
-        <div className="h-[30rem] = relative overflow-hidden ">
+        <div className="h-[30rem] relative overflow-hidden ">
           <motion.div
             initial={{ y: 0 }}
             animate={{ y: "-100%" }}
