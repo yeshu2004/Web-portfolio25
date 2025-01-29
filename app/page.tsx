@@ -7,6 +7,7 @@ import Scroll from "@/components/Scroll";
 import CreaterComponent from "@/components/CreaterComponent";
 import Lenis from 'lenis'
 import { useEffect } from "react";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 
@@ -21,7 +22,7 @@ export default function Home() {
       <HeroPage />
       <Agenda/>
       <CreaterComponent />
-      <Scroll />
+      <Footer/>
     </div>
   );
 }
